@@ -1,0 +1,28 @@
+name: ToXiiCPrisons
+version: 1.0.1
+api-version: 1.13
+description: Custom Prisons Plugin Containing all the Essential Prisons Features.
+author: ToXiiC
+authors: [ToXiiC]
+
+main: net.toxiic.prisons.Main
+database: false
+depend: [Vault, PlaceholderAPI]
+
+commands:
+  ToXiiCPrisons:
+    description: Admin command for debugging and reloading.
+  AutoPickup:
+    description: Used to toggle AutoPickup.
+    aliases: [ap]
+  AutoSmelt:
+    description: Used to toggle AutoSmelt.
+    aliases: [as]
+  Rankup:
+    description: Rank up if you have enough money.
+    aliases: [ru]
+  Ranks:
+    description: Lists ranks.
+    aliases: [rank]
+  Prestige:
+    description: Prestige to next prestige.-
