@@ -115,6 +115,8 @@ public class Main extends JavaPlugin {
 		getCommand("ranks").setExecutor(new Ranks());
 		getCommand("rankup").setExecutor(new Rankup());
 		getCommand("toxiicprisons").setExecutor(new ToXiiCCommand());	
+		getCommand("autopickup").setExecutor(new DropsCommand());
+		getCommand("autosmelt").setExecutor(new AutoSmeltCommand());
 		
 	}
 
